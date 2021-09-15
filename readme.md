@@ -1,28 +1,36 @@
-# Branch and Bound
 
-##### Grupo: Braian dos Santos Calot, João Victor Simões Gonçalves e Igor Fracalossi do Nascimento Lozorio.
- 
+# <b>Branch and Bound</b>
 
-## Explicação 
-Esse programa foi feito utilizando o algoritmo A* como base.
+## <b>Grupo:</b> Braian dos Santos Calot, João Victor Simões Gonçalves e Igor Fracalossi do Nascimento Lozorio.</br> 
 
-Dada uma matriz onde 0 e -1 são células onde não é possível passar, e 1 ou maior indica uma célula onde é possivel passar
-e o custo para passar por ela, o algoritmo encontra o melhor caminho entre uma célula inicial (START) e uma célula final (GOAL).
-Neste caso, o caminho encontrado é o de menor custo.
+## <b>Explicação</b>
+<h3> 
+    Esse programa foi feito utilizando o algoritmo <b>A*</b> como base. Dada uma matriz onde <b>0</b> e <b>-1</b> são células onde <b>não</b> é possível passar, e <b>1</b> ou <b>acima</b> indica uma célula onde é possível passar e o custo para passar por ela. O algoritmo encontra o melhor caminho entre uma célula inicial <b>( START )</b> e uma célula final <b>( GOAL )</b>. Neste caso, o caminho encontrado é o de <b>menor custo</b>.
+</h3></br>
 
-## Exemplo
-0	5	0	0	0
-0	2	3	3	0
-1	0	2	0	7
-0	4	0	6	0
-0	1	2	1	2
-0	1	1	3	0
+## <b>Exemplo</b>
+<h3>
+    0 &nbsp 5 &nbsp 0 &nbsp 0 &nbsp 0 </br> 
+    0 &nbsp 2 &nbsp 3 &nbsp 3 &nbsp 0 </br>
+    1 &nbsp 0 &nbsp 2 &nbsp 0 &nbsp 7 </br>
+    0 &nbsp 4 &nbsp 0 &nbsp 6 &nbsp 0 </br>
+    0 &nbsp 1 &nbsp 2 &nbsp 1 &nbsp 2 </br>
+    0 &nbsp 1 &nbsp 1 &nbsp 3 &nbsp 0 </br>
+</h3></br>
 
-START: (0, 1)
-GOAL: (5, 3)
+<h3>
+    <b> START:</b> &nbsp ( 0, 1 ) </br>
+    <b> GOAL: </b> &nbsp&nbsp ( 5, 3 )
+</h3>
 
-Caminho encontrado:
-(0, 1)  (1, 1)  (2, 0)  (3, 1)  (4, 2)  (5, 3)
+</br>
 
-Neste programa é possível utilizar as matrizes já definidas bastando escolher o START e GOAL para executar o algoritmo, ou se preferir,
-é possível criar sua própria matriz para aplicar o algoritmo.
+## <b>Caminho encontrado:</b></br>
+<h3>
+    ( 0 , 1 ) &nbsp ( 1 , 1 ) &nbsp ( 2 , 0 ) &nbsp ( 3 , 1 ) &nbsp ( 4 , 2 ) &nbsp ( 5 , 3 )
+</h3></br>
+
+<h3> 
+    Neste programa é possível utilizar as matrizes já definidas bastando escolher o <b>START</b> e <b>GOAL</b> para executar o algoritmo, ou se preferir, é possível criar sua própria matriz para aplicar o algoritmo. 
+</h3>
+
